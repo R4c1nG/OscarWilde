@@ -1,0 +1,50 @@
+/*  Autor: Jorge Tarascó
+    Fecha 23 / 12 / 18
+*/
+
+@charset "UTF-8";
+
+body {
+    background-color: hsl(187, 100%, 60%);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: hsl(187, 100%, 20%);
+    font-size: 66px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0%;
+}
+
+p {
+    border: hsl(187, 100%, 20%) 5px dashed;
+    background-color: hsl(187, 100%, 40%);
+    display: block;
+    font-style: oblique;
+    font-size: 22px;
+    float: left;
+    padding: 5px;
+    width: 270px;
+    height: 280px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+p::first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 75px;
+    font-style: initial;
+    color: hsl(187, 100%, 20%);
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+section {
+    margin-top: -50px;
+}
